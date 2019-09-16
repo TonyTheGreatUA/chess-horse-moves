@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#field{
+    width: 320px;
+    height: 320px;
+    box-sizing: content-box;
+    border: 1px solid #000000;
+}
+
+#field::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.chess-block{
+    width: 40px !important; 
+    height: 40px;
+    float: left;
+}
+
+.bg-black{
+    background: #525252;
+}
+
+.active{
+    background-color: #ff8800;
+    background-size: contain;
+}
+
+.green{
+    background-color: #2bff00;
+}
